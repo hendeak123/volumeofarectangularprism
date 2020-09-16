@@ -1,16 +1,10 @@
 package com.alyssa;
 
-class VolumeOfRectangularPrism {
+public class Main {
 
-    public static void main() {
+    public static void main(String[] args) {
 
-        int height = 1;
-        int weight = 3;
-        int length = 5;
-
-        int volume = height * weight * length;
-
-        System.out.println("The volume of the prism is" + volume + ".");
+        CalculateVolume calculateVolume = new CalculateVolume(20, 3, 5);
     }
 }
 
